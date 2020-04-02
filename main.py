@@ -50,7 +50,7 @@ def factor_combinations(table, factors_list, skip_zero=True):
         for entry in filtered_table:
             if entry == template_list:
                 t += 1
-        if skip_zero == True:
+        if skip_zero:
             if t == 0:
                 pass
             else:
